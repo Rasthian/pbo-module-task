@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +19,7 @@ namespace Praktikum_3
             Console.WriteLine("Dengan Tipe  : " + laptop1.tipe);
             Console.WriteLine("BerProcessor : "+ laptop1.processor.merk+ " " + laptop1.processor.tipe);
             Console.WriteLine("BerVGA       : " + laptop1.vga.merk);
-            laptop1.Ngoding();
+            laptop1.Ngoding();//tinggal hapus
 
 
             Laptop laptop2 = new IdeaPad();
@@ -34,7 +34,7 @@ namespace Praktikum_3
             predator.BermainGame();
 
             ACER acer = new Predator();
-            acer.BermainGame();
+            acer.BermainGame();//tinggal hapus
         }
     }
 
